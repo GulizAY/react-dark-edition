@@ -7,7 +7,7 @@ React Dark Theme Template;
 ## Installation
 [npm package](https://www.npmjs.com/package/react-dark-edition)
 
-### 'npm i react-dark-edition'
+### `npm i react-dark-edition`
 
 
 
