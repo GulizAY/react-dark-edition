@@ -1,8 +1,8 @@
 ## react-dark-edition
 React Dark Theme Template;
  * Sidebar Item color changeable
- * Sidebar Bacground Image changeable
- * Sidebar Bacground Color changeable
+ * Sidebar Background Image changeable
+ * Sidebar Background Color changeable
 
 ## Installation
 
