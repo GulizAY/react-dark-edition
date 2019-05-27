@@ -9,20 +9,6 @@ const accountService = {
   changePassword,
   tokenUserInfo
 };
-
-/*
-
-var d = new Date();
-document.getElementById("demo").innerHTML = d.getTime();
-var dOld = new Date(1546589931*1000);
-document.getElementById("demo2").innerHTML = dOld.getTime();
-
-if(dOld < d)
-  'geçmiş';
-else
-  'geçerli';
-
-*/
  
 function tokenUserInfo() {
   var token = localStorage.getItem('userToken');
@@ -113,24 +99,5 @@ function logout() {
   // remove user from local storage to log user out
   localStorage.removeItem('userToken');
 }
-
-
-// function handleResponse(response) {
-//   return response.text().then(text => {
-//     const data = text && JSON.parse(text);
-//     if (!response.ok) {
-//       if (response.resultCode === 401) {
-//         // auto logout if 401 response returned from api
-//         logout();
-//         location.reload(true);
-//       }
-
-//       const error = (data && data.message) || !response.isSucceed;
-//       return Promise.reject(error);
-//     }
-
-//     return data;
-//   });
-// }
 
 export default accountService

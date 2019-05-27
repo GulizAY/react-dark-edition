@@ -25,10 +25,6 @@ class Admin extends Component {
       hasImage: true,
       fixedClasses: "dropdown"
     };
-
-    localStorage.setItem('stateSidebarImage', image);
-    localStorage.setItem('stateSidebarColor', this.state.color);
-    localStorage.setItem('stateSidebarBackgroundColor', this.state.backgroundColor);
   }
   handleNotificationClick = position => {
     var color = Math.floor(Math.random() * 4 + 1);
@@ -119,9 +115,9 @@ class Admin extends Component {
   componentDidMount() {
     this.setState({ 
       _notificationSystem: this.refs.notificationSystem, 
-      image: localStorage.getItem('stateSidebarImage'),
-      color: localStorage.getItem('stateSidebarColor'),
-      backgroundColor: localStorage.getItem('stateSidebarBackgroundColor') 
+      image: localStorage.getItem('stateSidebarImage') == undefined ? this.state.image : localStorage.getItem('stateSidebarImage'),
+      color: localStorage.getItem('stateSidebarColor') == undefined ? this.state.color : localStorage.getItem('stateSidebarColor'),
+      backgroundColor: localStorage.getItem('stateSidebarBackgroundColor') == undefined ? this.state.backgroundColor : localStorage.getItem('stateSidebarBackgroundColor')
     });
     var _notificationSystem = this.refs.notificationSystem;
     var color = Math.floor(Math.random() * 4 + 1);
