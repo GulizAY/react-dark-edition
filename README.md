@@ -5,8 +5,9 @@ React Dark Theme Template;
  * Sidebar Background Color changeable
 
 ## Installation
+[npm package](https://www.npmjs.com/package/react-dark-edition)
 
-npm i react-dark-edition
+### 'npm i react-dark-edition'
 
 
 
