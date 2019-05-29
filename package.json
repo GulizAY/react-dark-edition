@@ -3,6 +3,10 @@
   "version": "0.1.1",
   "private": false,
   "description": "Created By Güliz AY (The Moon Studio), based on creative tim - Light Bootstrap Dashboard React ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GulizAY/react-dark-edition.git"
+  },
   "author": "gulizay",
   "license": "MIT",
   "dependencies": {
