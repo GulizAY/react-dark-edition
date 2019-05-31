@@ -81,15 +81,15 @@ class Login extends Component {
             </div>
 
             <div className="form-group">
-              <label htmlFor="username"><b>Kullanıcı Adı</b></label>
-              <input type="text" className="form-control" placeholder="Kullanıcı adı/ e-posta" value={this.state.username} onChange={this.usernameChanged.bind(this)} required />
+              <label htmlFor="username"><b>Username</b></label>
+              <input type="text" className="form-control" placeholder="Username/email" value={this.state.username} onChange={this.usernameChanged.bind(this)} required />
             </div>
             <div className="form-group">
-              <label htmlFor="password"><b>Şifre</b></label>
-              <input type="password" className="form-control" placeholder="Şifre" value={this.state.password} onChange={this.passwordChanged.bind(this)} required />
+              <label htmlFor="password"><b>Password</b></label>
+              <input type="password" className="form-control" placeholder="Password" value={this.state.password} onChange={this.passwordChanged.bind(this)} required />
             </div>
             <div className="form-group">
-              <button type="submit" className="btn btn-warning float-right" onClick={this.onLoginClick.bind(this)}>Giriş Yap</button>
+              <button type="submit" className="btn btn-warning float-right" onClick={this.onLoginClick.bind(this)}>Login</button>
             </div>
             <label>
               {/* <input type="checkbox" checked="checked" name="remember" /> Remember me  */}
