@@ -3,6 +3,7 @@ React Dark Theme Template;
  * Sidebar Item color changeable
  * Sidebar Background Image changeable
  * Sidebar Background Color changeable
+ * Login Page with authentication (note: look "// Attention...")
 
 
 <p>

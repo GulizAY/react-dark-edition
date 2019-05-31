@@ -7,8 +7,10 @@ import { Paths, Layout } from "components/Navigation/navigation"
 function controlUserAuth(props) {
   //console.log(props)
   let result = false;
-  return true; // TODO:  u can own api for login
+  
   if (localStorage.getItem('userToken')) {
+    return true; // Attention:  logged in successfully without api 
+
     var token = localStorage.getItem('userToken');
     var _result = apiServices.accountService.controlTokenExpiry(token);
     if (!_result) {

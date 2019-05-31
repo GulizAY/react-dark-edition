@@ -35,7 +35,7 @@ function controlTokenExpiry(token)
     {
       result = true;
       this.logout();
-      // todo: refresh token ile tekrar login edilecek
+      // Todo: refresh token ile tekrar login edilecek
     }
     else
       result = false;

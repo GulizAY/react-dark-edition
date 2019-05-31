@@ -36,7 +36,8 @@ class Login extends Component {
       password: this.state.password
     }
 
-    // TODO: u can own api for login
+    // Attention:  u can use own api for login
+    localStorage.setItem('userToken', "tempToken");
     this.setState({
       redirectToDashboard: true,
       authenticated: true
