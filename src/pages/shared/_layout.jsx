@@ -13,6 +13,7 @@ import routes from "./routes";
 
 import image from "assets/img/sidebar-8.jpg";
 import logo from "assets/img/logo.png";
+import { Paths } from "components/Navigation/navigation";
 
 class Admin extends Component {
   constructor(props) {
@@ -60,7 +61,7 @@ class Admin extends Component {
   };
   getRoutes = routes => {
     return routes.map((prop, key) => {
-      if (prop.layout === "/admin") {
+      if (prop.layout === Paths.Layout) {
         return (
           <Route
             path={prop.layout + prop.path}

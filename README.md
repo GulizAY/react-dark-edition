@@ -13,7 +13,7 @@ React Dark Theme Template;
 </p>
 
 <p>
-	<a target="_blank" rel="noopener noreferrer" href="https://repository-images.githubusercontent.com/188742209/a1558500-8031-11e9-8b86-df7c1ed3b2f9"><img src="https://repository-images.githubusercontent.com/188742209/a1558500-8031-11e9-8b86-df7c1ed3b2f9" alt="alt text" title="React Dark Edition" style="max-width:100%;"></a>
+	<a target="_blank" rel="noopener noreferrer" href="https://repository-images.githubusercontent.com/188742209/083abb80-83ef-11e9-806a-6176ab9ea4a4"><img src="https://repository-images.githubusercontent.com/188742209/083abb80-83ef-11e9-806a-6176ab9ea4a4" alt="alt text" title="React Dark Edition" style="max-width:100%;"></a>
 </p>
 
 
