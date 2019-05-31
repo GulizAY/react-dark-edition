@@ -13,15 +13,15 @@ class AdminNavbarLinks extends Component {
       </div>
     );
     return (
-      <Nav pullRight>
+      <Nav  className="navbar-right">
         {/* <NavItem eventKey={1} href="#">
           <i className="fa fa-search" />
           <p className="hidden-lg hidden-md">Search</p>
         </NavItem> */}
-        <NavItem eventKey={2} href="#">
+        <NavItem eventKey={1} href="#/profile">
           <p className="text-info"><i className="fa fa-user" />UserName</p>
         </NavItem>
-        <NavItem eventKey={3} href="#">
+        <NavItem eventKey={2} href="#">
           Log out
         </NavItem>
       </Nav>

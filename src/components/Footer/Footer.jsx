@@ -10,25 +10,25 @@ class Footer extends Component {
           <nav className="pull-left">
             <ul>
               <li>
-                <a href="#tms">Home</a>
+                <a href="#/tms">Home</a>
               </li>
               <li>
-                <a href="#company">Company</a>
+                <a href="#/company">Company</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#/contact">Contact</a>
               </li>
               <li>
-                <a href="#blog">Blog</a>
+                <a href="#/blog">Blog</a>
               </li>
             </ul>
           </nav>
           <p className="copyright pull-right">
             &copy; {new Date().getFullYear()}{" "}
-            <a href="http://94.73.147.204/plesk-site-preview/themoonstudio.gulizay.site/">
+            <a href="http://www.themoon-studio.com/">
               The Moon Studio
             </a>
-            , made with love for an easy life
+            , made with rigor to make your work easier
           </p>
         </Grid>
       </footer>

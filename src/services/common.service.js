@@ -1,5 +1,5 @@
-import { Post as HttpPost, PostToken as HttpPostToken } from '../util/httpHelper'
-import { apiServiceUrl  } from '../util/const'
+import { Post as HttpPost, PostToken as HttpPostToken } from 'utils/httpHelper'
+import { apiServiceUrl  } from 'utils/const'
 import { ToastStore } from 'react-toasts'
 
 const commonService = {

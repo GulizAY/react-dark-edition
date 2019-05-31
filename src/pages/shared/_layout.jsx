@@ -12,7 +12,7 @@ import { style } from "utils/Variables.jsx";
 import routes from "./routes";
 
 import image from "assets/img/sidebar-8.jpg";
-import logo from "assets/img/reactlogo.png";
+import logo from "assets/img/logo.png";
 
 class Admin extends Component {
   constructor(props) {

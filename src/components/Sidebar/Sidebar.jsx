@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import AdminNavbarLinks from "../Navbars/AdminNavbarLinks.jsx";
 
-import logo from "assets/img/reactlogo.png";
+import logo from "assets/img/logo.png";
 import { isUndefined } from "util";
 
 class Sidebar extends Component {
@@ -44,7 +44,7 @@ class Sidebar extends Component {
           )}
         <div className="logo">
           <a
-            href="https://www.creative-tim.com?ref=lbd-sidebar"
+            href="http://www.themoon-studio.com"
             className="simple-text logo-mini"
           >
             <div className="logo-img">
@@ -52,7 +52,7 @@ class Sidebar extends Component {
             </div>
           </a>
           <a
-            href="https://www.creative-tim.com?ref=lbd-sidebar"
+            href="http://www.themoon-studio.com"
             className="simple-text logo-normal"
           >
             {isUndefined(this.props.logoText) ? 'Site Name' : this.props.logoText}

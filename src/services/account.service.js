@@ -1,4 +1,4 @@
-import { Post as HttpPost, PostToken as HttpPostToken } from '../util/httpHelper'
+import { Post as HttpPost, PostToken as HttpPostToken } from 'utils/httpHelper'
 import jwt_decode from 'jwt-decode'
 import { ToastStore } from 'react-toasts'
 
