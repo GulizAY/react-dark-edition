@@ -6,6 +6,12 @@ React Dark Theme Template;
  * Login Page with authentication (note: look "// Attention...")
 
 
+<hr />
+
+<p>
+	<a target="_blank" rel="noopener noreferrer" href="https://repository-images.githubusercontent.com/188742209/ffe18100-83ec-11e9-986a-f640e46d85f5"><img src="https://repository-images.githubusercontent.com/188742209/ffe18100-83ec-11e9-986a-f640e46d85f5" alt="alt text" title="React Dark Edition - Login" style="max-width:100%;"></a>
+</p>
+
 <p>
 	<a target="_blank" rel="noopener noreferrer" href="https://repository-images.githubusercontent.com/188742209/a1558500-8031-11e9-8b86-df7c1ed3b2f9"><img src="https://repository-images.githubusercontent.com/188742209/a1558500-8031-11e9-8b86-df7c1ed3b2f9" alt="alt text" title="React Dark Edition" style="max-width:100%;"></a>
 </p>
