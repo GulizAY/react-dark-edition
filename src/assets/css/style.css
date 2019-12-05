@@ -1,3 +1,4 @@
+
 .input-simple {
   margin: 0;
   border: 0;
@@ -22,12 +23,7 @@
 }
 
 .card-user .image {
-  height: 250px;
-}
-
-.card .image img {
-  width: 100%;
-  margin-top: -80px;
+  height: 180px;
 }
 
 .container-fluid>.navbar-collapse, 
@@ -35,4 +31,13 @@
 .container>.navbar-collapse, 
 .container>.navbar-header {
   width: -webkit-fill-available;
+}
+
+.table-header-class, .table-header-class>th {
+  background-color: var(--primaryDarkBgColor);
+  color: var(--primaryDarkTextColor) !important;
+}
+
+.table-container-class {
+  max-height: 500px;
 }
